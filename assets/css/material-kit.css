@@ -18102,4 +18102,102 @@ footer .pull-center {
   }
 }
 
+
+/*TESTE DE SERVIÇOS VIA GITHUB*/
+
+.container-servicios {
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(4, 110px);
+    background-color: var(--lightgray);
+}
+
+.container-servicios .titulo {
+    grid-column: 3/9;
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+
+.container-servicios .titulo h1 {
+    font-family: 'Roboto';
+    color: var(--blue);
+    font-size: 2vw;
+}
+
+.container-servicios .titulo hr {
+    position: relative;
+    top: 10%;
+}
+
+.container-servicios .ico-domicilio {
+    grid-column: 2/4;
+    grid-row: 2/2;
+    position: relative;
+    top: 10%;
+}
+
+.container-servicios .ico-cirugia {
+    grid-column: 4/6;
+    grid-row: 2/2;
+    position: relative;
+    top: 10%;
+}
+
+.container-servicios .ico-hospital {
+    grid-column: 6/8;
+    grid-row: 2/2;
+    position: relative;
+    top: 10%;
+}
+
+.container-servicios .ico-imagenologia {
+    grid-column: 8/10;
+    grid-row: 2/2;
+    position: relative;
+    top: 10%;
+}
+
+
+
+.container-servicios .ico-domicilio .imagen,
+.container-servicios .ico-cirugia .imagen,
+.container-servicios .ico-hospital .imagen,
+.container-servicios .ico-imagenologia .imagen {
+    text-align: center;
+    position: relative;
+    top: 0%;
+}
+
+.container-servicios .ico-domicilio .texto,
+.container-servicios .ico-cirugia .texto,
+.container-servicios .ico-hospital .texto,
+.container-servicios .ico-imagenologia .texto {
+    position: relative;
+    top: 0%;
+    margin: 3%;
+}
+
+.container-servicios .ico-domicilio .texto h1,
+.container-servicios .ico-cirugia .texto h1,
+.container-servicios .ico-hospital .texto h1,
+.container-servicios .ico-imagenologia .texto h1 {
+    color: var(--blue);
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.container-servicios .ico-domicilio .texto p,
+.container-servicios .ico-cirugia .texto p,
+.container-servicios .ico-hospital .texto p,
+.container-servicios .ico-imagenologia .texto p {
+    color: var(--darkgray);
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 2vh;
+    margin: 5%;
+}
+
 /*# sourceMappingURL=kit-free.css.map */
