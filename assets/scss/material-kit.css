@@ -18482,5 +18482,13 @@ footer .pull-center {
 .contact-icon > a > i{
   padding-left: 10px;
 }
+.card_img_dog{
+  display:flex;
+  align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
   
 /*# sourceMappingURL=material-kit.css.map */
