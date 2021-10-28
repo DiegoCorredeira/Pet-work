@@ -18488,6 +18488,21 @@ footer .pull-center {
     flex-direction: column;
     flex-wrap: wrap;
 }
+.redes_contact{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  align-items: baseline;
+  /* padding-left: 15
+px
+; */
+  list-style: none;
+}
+.redes-contact{
+  margin-left: 15px;
+}
 
 
   
