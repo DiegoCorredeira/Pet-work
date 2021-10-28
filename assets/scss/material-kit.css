@@ -15221,7 +15221,8 @@ h2.title {
 }
 
 .text-primary {
-  color: #9c27b0 !important;
+  color: #e50914 !important;
+
 }
 
 .text-danger {
@@ -17817,7 +17818,7 @@ footer .pull-center {
 }
 
 .section {
-  padding: 70px 0;
+  padding: 10px 0;
 }
 
 .profile-page .page-header {
@@ -18462,4 +18463,14 @@ footer .pull-center {
     width: 245px;
   }
 }
+
+
+.redes > a:hover{
+  color: #e50914;
+  width: 150px;
+}
+.redes > i{
+ font-size: 100px;
+}
+  
 /*# sourceMappingURL=material-kit.css.map */

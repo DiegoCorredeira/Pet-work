@@ -1,292 +1,458 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no" name="viewport"/>
 
-    <title>Entre em contato conosco</title>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no"
+    name="viewport" />
+  <title>Brincacao</title>
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png" />
+  <link rel="icon" type="image/png" href="./assets/img/favicon.png" />
+  <link rel="stylesheet" type="text/css"
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+  <link href="./assets/css/material-kit.css?v=2.0.6" rel="stylesheet" />
+  <link href="./assets/demo/demo.css" rel="stylesheet" />
 
-    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png"/>
-    <link rel="icon" type="image/png" href="./assets/img/favicon.png" />
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"/>
-    <link href="./assets/css/material-kit.css?v=2.0.6" rel="stylesheet" />
-    <link href="./assets/demo/demo.css" rel="stylesheet" />
-  </head>
+  <link href="./assets/scss/material-kit.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 
-  <body class="index-page sidebar-collapse" id="home">
-   
-    <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
-      <div class="container">
-        <div class="navbar-translate">
-          <a class="navbar-brand" href="index.html">Brincacao</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="sr-only">Navegação</span>
-            <span class="navbar-toggler-icon"></span>
-            <span class="navbar-toggler-icon"></span>
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-        <div class="collapse navbar-collapse">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                title=""
-                data-placement="bottom"
-                href="index.html#home"
-                data-original-title="Visit Our Homegage"
-              >
-                <i class="material-icons">home</i> Inicio
-              </a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                title=""
-                data-placement="bottom"
-                href="index.html#about"
-                data-original-title="See What We're About"
-              >
-                <i class="material-icons">event_note</i> Sobre Nós
-              </a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                title=""
-                data-placement="bottom"
-                href="index.html#services"
-                data-original-title="The Services We Provide"
-              >
-                <i class="material-icons">info</i> Serviços
-              </a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                title=""
-                data-placement="bottom"
-                href="index.html#prices"
-                data-original-title="See our prices"
-              >
-                <i class="material-icons">money</i> Preços
-              </a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                title=""
-                data-placement="bottom"
-                href="#"
-                data-original-title="Get In Touch With Us Now"
-              >
-                <i class="material-icons">mail</i> Contato
-              </a>
-            </li>
-          </ul>
+<body class="index-page sidebar-collapse" id="home">
+
+  <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100"
+    id="sectionsNav">
+    <div class="container">
+      <div class="navbar-translate">
+        <a class="navbar-brand" href="#">Brincacao</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="sr-only">Navegação</span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" title="" data-placement="bottom" href="index.html" data-original-title="Visit Our Homegage">
+              <i class="material-icons">home</i> Inicio
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" title="" data-placement="bottom" href="#about"
+              data-original-title="See What We're About">
+              <i class="material-icons">event_note</i> Sobre
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" title="" data-placement="bottom" href="services.html"
+              data-original-title="The Services We Provide">
+              <i class="material-icons">info</i> Serviços
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" title="" data-placement="bottom" href="#prices" data-original-title="See our prices">
+              <i class="material-icons">money</i> Preços
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" title="" data-placement="bottom" href="contact.html"
+              data-original-title="Get In Touch With Us Now">
+              <i class="material-icons">mail</i> Contato
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="page-header header-filter clear-filter" data-parallax="true"
+    style="background-image: url(assets/img/dog-bg3.jpg);">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto">
+          <div class="brand">
+            <h1>Brincacão</h1>
+            <h3>Seus Pets são nossa prioridade</h3>
+          </div>
         </div>
       </div>
-    </nav>
-    
-    
-    
-    <!--Inicio!-->
-    
-    <div class="container-servicios-1">
-        <div class="titulo">
-            <h1>Nossos Serviços</h1>
-        </div>
-        <div class="cirugias">
-            <div class="imagen">
-                <img src="assets/img/walkers.jpg" alt="">
-            </div>
-            <div class="texto">
-                <h1>Passeadores</h1>
-                <p>Contamos com uma equipe de passeadores que está disponivel de 9 ás 18 de segunda á segunda</p>
-            </div>
-        </div>
-
-        <div class="imagenologia">
-            <div class="imagen">
-                <img src="assets/img/vet2.jpg" alt="">
-            </div>
-            <div class="texto">
-                <h1>Veterinário</h1>
-                <p>Consultas com veterinarios experientes 24h</p>
-            </div>
-        </div>
-
-        <div class="hospital">
-            <div class="imagen">
-                <img src="assets/img/banho-e-tosa.jpg" alt="">
-            </div>
-            <div class="texto">
-                <h1>Banho e Tosa</h1>
-                <p> Banho e tosa para seu bichinho ficar limpinho e cheiroso após um longo dia de caminhada
-                    </p>
-            </div>
-        </div>
     </div>
+  </div>
 
-    <div class="container-servicios-2">
-        <div class="dermatologia">
-            <div class="imagen">
-                <img src="assets/img/a-mimir-hospedagem.jpg" alt="">
-            </div>
-            <div class="texto">
-                <h1>Hospedagem</h1>
-                <p>Especial para tutores super ocupados</p>
+  <div class="main main-raised">
+    <div class="section section-basic">
+
+
+      <div class="section section-examples">
+            <div class="container">
+                <div class="title text-primary">
+                    <h2>
+                        Nossos Serviços
+                    </h2>
+                </div>
+                <div class="container-fluid text-center">
+                   <div class="row">
+                        <div class="col-md-6">
+                            <h3>Vet</h3>
+                            <img width="60%" src="assets/img/vet3.jpg" alt="Vet Icon" />
+                            <br>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe cumque aspernatur voluptas consequatur sequi natus dolor laudantium sed dolorum. Similique at odio autem sit voluptates. Voluptatum consequuntur odio necessitatibus modi!
+                        </div>
+                        <div class="col-md-6">
+                            <h3>Banho e Tosa</h3>
+                            <img width="60%" src="assets/img/banho-e-tosa.jpg" alt="Cão com toalha na cabeça" />
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe cumque aspernatur voluptas consequatur sequi natus dolor laudantium sed dolorum. Similique at odio autem sit voluptates. Voluptatum consequuntur odio necessitatibus modi!</p>
+                        </div>
+                    </div>
+                   <div class="row">
+                        <div class="col-md-6">
+                            <h3>Roupas, Acessórios e Brinquedos</h3>
+                            <img width="60%" src="assets/img/clothes.jpg" alt="Cães com roupas" />
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe cumque aspernatur voluptas consequatur sequi natus dolor laudantium sed dolorum. Similique at odio autem sit voluptates. Voluptatum consequuntur odio necessitatibus modi!</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h3>Hospedagem</h3>
+                            <img width="60%" src="assets/img/a-mimir-hospedagem.jpg" alt="Cachorro deitado" />
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe cumque aspernatur voluptas consequatur sequi natus dolor laudantium sed dolorum. Similique at odio autem sit voluptates. Voluptatum consequuntur odio necessitatibus modi!</p>
+                        </div>
+                    </div>
+                   <div class="row">
+                        <div class="col-md-6">
+                            <h3>Passeadores</h3>
+                            <img width="60%" src="assets/img/walkers.jpg" alt="Passeador de cachorro" />
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe cumque aspernatur voluptas consequatur sequi natus dolor laudantium sed dolorum. Similique at odio autem sit voluptates. Voluptatum consequuntur odio necessitatibus modi!</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h3>Visitas</h3>
+                            <img width="60%" src="assets/img/brincando-com-cao-bg.jpg" alt="Brincando com cão" />
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe cumque aspernatur voluptas consequatur sequi natus dolor laudantium sed dolorum. Similique at odio autem sit voluptates. Voluptatum consequuntur odio necessitatibus modi!</p>
+                        </div>
+                    </div>
+                    </div>
+                    
+                </div>
+                <br />
+                
             </div>
         </div>
 
-        <div class="farmacia">
-            <div class="imagen">
-                <img src="assets/img/dogs-playing.jpg" alt="">
-            </div>
-            <div class="texto">
-                <h1>Canil 2x2</h1>
-                <p>Para seu bichinho não ficar entediado. Colocamos ele junto com um amiguinho para que possam se divertir juntos</p>
-            </div>
-        </div>
 
-        <div class="peluqueria">
-            <div class="imagen">
-                <img src="static/img/clothes.jpg" alt="">
-            </div>
-            <div class="texto">
-                <h1>Roupas, Brinquedos e Acessórios</h1>
-                <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."</p>
-            </div>
-        </div>
-    </div>
-    <!--FIM!-->
-    
+      <div class="section section-tabs" id="services">
+        <div class="container">
 
-    <div
-      class="page-header header-filter clear-filter"
-      data-parallax="true"
-      style="background-image: url(assets/img/dog-bg3.jpg);"
-    >
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 ml-auto mr-auto">
-            <div class="brand">
-              <h1>Nossos Serviços</h1>
-              
+          <div id="nav-tabs">
+            <div class="row">
+              <div class="col-md-6">
+                <h3>
+                  <small>Area de Serviços</small>
+                </h3>
+
+                <div class="card card-nav-tabs">
+                  <div class="card-header card-header-primary">
+
+                    <div class="nav-tabs-navigation">
+                      <div class="nav-tabs-wrapper">
+                        <ul class="nav nav-tabs" data-tabs="tabs">
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#visits" data-toggle="tab">
+                              <i class="material-icons">home_work</i> Visitas
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#sleepovers" data-toggle="tab">
+                              <i class="material-icons">single_bed</i> Hospedagem
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#walking" data-toggle="tab">
+                              <i class="material-icons">pets</i> Passeador de cães
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#air" data-toggle="tab">
+                              <i class="material-icons">air</i> Banho e Tosa
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#checkroom" data-toggle="tab">
+                              <i class="material-icons">checkroom</i> Roupas, Brinquedos e Acessórios
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#hospital" data-toggle="tab">
+                              <i class="material-icons">local_hospital</i> Veterinario
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body ">
+                    <div class="tab-content text-center">
+                      <div class="tab-pane active" id="visits">
+                        <p>
+                          Nossas visitas variam de 1-2 vezes por dia e consistem em colocar comida e água fresca,
+                          limpeza de área do pet, administração de medicamenos, vitaminas ou qualquer outra necessidade
+                          especial que seja exigida por você. Além de carícias e brincadeiras. Verificação de perímetro,
+                          armamento de alarmes, ligar ou desligar luzes, coleta de correspondências, regar plantas,
+                          retirada de lixo. Fazemos relatório diário com fotos sobre seu pet e enviamos via whatsapp.
+                        </p>
+                      </div>
+                      <div class="tab-pane" id="sleepovers">
+                        <p>
+                          Limitada a certas áreas, oferecemos festas do pijama com convidados durante a noite. Serviço
+                          de 19h00 ás 07h00 do dia seguinte onde os assinantes trazem sua própria comida e use apenas o
+                          microondas, geladeira e TV. Nós também garantimos que eles não estejam na sua casa a menos que
+                          seja combinado com antecedência. Esse serviço vem com todos os serviços padrões oferecidos.
+                        </p>
+                      </div>
+                      <div class="tab-pane" id="walking">
+                        <p>
+                          Todos os dias entre 10h00 e ás 15h00 alguns dos nossos representantes de nossa equipe oferece
+                          um serviço de passear com cães para nossos amigos peludos que estão um pouco acima do peso /
+                          depressivos, têm comportamento destrutivo ou apenas para a saúde e boa forma. Durante esse
+                          serviço, nos cerfificamos de passar 45 minutos caminhando com seu animal de estimação em seu
+                          local desejado. Dando a eles seu cardio diário e os ajudando a atingir seu peso ideal. Nos
+                          certificamos de brincar e jogar até que fiquem cansados e tenham um bom descanso.
+                        </p>
+                      </div>
+
+                      <div class="tab-pane" id="air">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro hic commodi quam totam
+                          voluptates? Incidunt vitae nam eius vero blanditiis. Dolor nesciunt dignissimos modi.
+                          Veritatis iste laboriosam a perferendis cupiditate.1
+                        </p>
+                      </div>
+
+                      <div class="tab-pane" id="checkroom">
+                        <p>
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis inventore reprehenderit
+                          nemo impedit consequuntur ducimus veritatis itaque, accusantium, assumenda ab a iusto animi
+                          magnam alias aliquam dolores architecto repudiandae officiis?2
+                        </p>
+                      </div>
+
+                      <div class="tab-pane" id="hospital">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsam mollitia deserunt
+                          molestias atque maiores consequuntur perferendis nisi blanditiis! Officiis itaque soluta
+                          similique repudiandae quasi autem. Tenetur praesentium aut non.3
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-lg-6 col-md-12">
+                <div class="row">
+                  <div class="col-md-3">
+                    <ul class="nav nav-pills nav-pills-icons flex-column" role="tablist">
+
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#priceVisit" role="tab" data-toggle="tab">
+                          <i class="material-icons">home_work</i> Visitas diárias
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#priceSleepover" role="tab" data-toggle="tab">
+                          <i class="material-icons">single_bed</i> Hospedagem
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#priceWalk" role="tab" data-toggle="tab">
+                          <i class="material-icons">pets</i> Cuidadores
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#priceBath" role="tab" data-toggle="tab">
+                          <i class="material-icons">air</i> Banho e Tosa
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#priceCheck" role="tab" data-toggle="tab">
+                          <i class="material-icons">checkroom</i> Roupas, Acessórios e Brinquedos
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#priceVet" role="tab" data-toggle="tab">
+                          <i class="material-icons">local_hospital</i> Veterinario
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="tab-content">
+                      <div class="tab-pane active" id="priceVisit">
+                        <h3>Preço por visita a partir de <span class="text-primary">R$90</span></h3>
+                        Isso nos permite ser justos com nossos clientes e é mais acessivel do que a concorrência. Preços
+                        reduzidos também estão disponiveis em períodos de permanencia mais longos.
+                        <br>
+                        <br>
+                        O preço por visita depende de vários fatores, como a quantidade de animais de estimação para
+                        cuidar e executar tarefas necessárias durante o período de permanência.
+                      </div>
+                      <div class="tab-pane" id="priceSleepover">
+                        <h3>Preço por pernoite a partir de <span class="text-primary">R$279</span></h3>
+                        Sujeito a disponibilidade e variam dependendo da área. Preços reduzidos também estao disponíveis
+                        em períodos de permanência mais longos.
+                        <br>
+                        <br>
+                        O preço do pernoite depende de vários fatores, como a quantidade de animais de estimação para
+                        cuidar e executar tarefas necessárias durante o período de permanência.
+                      </div>
+                      <div class="tab-pane" id="priceWalk">
+                        <h3>Cuidadores de cães a partir de <span class="text-primary">R$50</span></h3>
+                        Esse é um serviço de caminhada de 30 min a 45 min onde levamos seu amigo peludo para uma sessão
+                        de cardio, embora esteja sujeito a disponibilidade, também pode ser organizado como um
+                        complemento de outros serviços.
+                        <br>
+                        <br>
+                        O preço da caminhada depende de vários fatores, como a quantidade de animais de estimação para
+                        cuidar e executar tarefas necessárias durante o período de permanência.
+                      </div>
+
+                      <div class="tab-pane" id="priceBath">
+                        <h3>Banho e Tosa a partir de <span class="text-primary">R$40</span></h3>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt veniam adipisci, accusamus
+                        modi molestias excepturi necessitatibus laboriosam ut tenetur ab fugiat, eos nam eaque eveniet
+                        eius quasi minima quis commodi!
+                        <br>
+                        <br>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio cum itaque facere similique
+                        sequi dolorum, error dolorem magni ab, repellendus quibusdam iste. Repellat accusantium possimus
+                        animi nulla expedita maiores porro!
+                      </div>
+
+                      <div class="tab-pane" id="priceCheck">
+                        <h3>Roupas, Brinquedos e Acessórios <span class="text-primary">R$10</span></h3>
+                        Esse é um serviço de caminhada de 30 min a 45 min onde levamos seu amigo peludo para uma sessão
+                        de cardio, embora esteja sujeito a disponibilidade, também pode ser organizado como um
+                        complemento de outros serviços.
+                        <br>
+                        <br>
+                        O preçodepende de vários fatores, como a cor, modelo e tamanho.
+                      </div>
+
+                      <div class="tab-pane" id="priceVet">
+                        <h3>Veterinarios a partir de <span class="text-primary">R$75</span></h3>
+                        Esse é um serviço de caminhada de 30 min a 45 min onde levamos seu amigo peludo para uma sessão
+                        de cardio, embora esteja sujeito a disponibilidade, também pode ser organizado como um
+                        complemento de outros serviços.
+                        <br>
+                        <br>
+                        O preço da consulta depende de vários fatores, como a quantidade de animais de estimação para
+                        cuidar e executar tarefas necessárias durante o período de permanência.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  
 
-   
-    <footer class="footer" data-background-color="black">
-      <div class="container">
-        <nav class="float-left">
-          <ul>
-            <li>
-              <a href="index.html#home">
-                Inicio
-              </a>
-            </li>
-            <li>
-              <a href="index.html#about">
-                Sobre Nós
-              </a>
-            </li>
-            <li>
-              <a href="privacyPolicy.html">
-                Politica e Privacidade
-              </a>
-            </li>
-            <li>
-              <a href="termsOfService.html">
-                Termos de Serviço
-              </a>
-            </li>
-            <li>
-              <a href="contact.html">
-                Contato
-              </a>
-            </li>
-            <li>
-              <a href="payments.html">
-                  Formas de Pagamento
-                  <img src="assets/img/payment-desk.png" alt="" style="max-width: 100%;">
-              </a>
+    
+
+  <footer class="footer" data-background-color="black">
+    <div class="container">
+      <nav class="float-left">
+        <ul>
+          <li>
+            <a href="#home">
+              Início
+            </a>
           </li>
-          </ul>
-        </nav>
-        <div class="copyright float-right">
-          &copy;
-          <script>
-            document.write(new Date().getFullYear());
-          </script>
-          , Feito com
-          <i class="material-icons" style="color: #9c27b0;">favorite</i> por
-          <a
-            href="https://github.com/Diegocorredeira"
-            target="_blank"
-            style="color: #9c27b0; font-weight: 400;"
-            >D</a
-          >
-          Para Brincacao.
-        </div>
+          <li>
+            <a href="#about">
+              Sobre Nós
+            </a>
+          </li>
+          <li>
+            <a href="services.html">
+              Serviços
+            </a>
+          </li>
+          <li>
+            <a href="privacyPolicy.html">
+              Informações Adicionais
+            </a>
+          </li>
+          <li>
+            <a href="termsOfService.html">
+              Termos de Serviço
+            </a>
+          </li>
+          <li>
+            <a href="contact.html">
+              Contato
+            </a>
+          </li>
+          <li>
+            <a href="payments.html">
+              Formas de Pagamento
+              <img src="assets/img/payment-desk.png" alt="" style="max-width: 100%;">
+            </a>
+          </li>
+          <li class="redes"><a href=""><i class="fab fa-facebook fa-3x"></i></a></li>
+                    <li class="redes"><a href=""><i class="fab fa-instagram fa-3x"></i></li>
+                      <li class="redes"><a href=""><i class="fab fa-twitter fa-3x"></i></li>
+                        <li class="redes"><a href=""><i class="fab fa-pinterest fa-3x"></i></a></li>
+        </ul>
+      </nav>
+      <div class="copyright float-right">
+        &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        , Feito com
+        <i class="material-icons" style="color: #9c27b0;">favorite</i> by
+        <a href="https://github.com/diegocorredeira" target="_blank" style="color: #9c27b0; font-weight: 400;">D</a>
+        Para Brincacao
       </div>
-    </footer>
-  
+    </div>
+  </footer>
+
+  <script src="./assets/js/core/jquery.min.js"></script>
+  <script src="./assets/js/core/popper.min.js"></script>
+  <script src="./assets/js/core/bootstrap-material-design.min.js"></script>
+  <script src="./assets/js/plugins/moment.min.js"></script>
+
+  <script src="./assets/js/plugins/bootstrap-datetimepicker.js"></script>
+
+  <script src="./assets/js/plugins/nouislider.min.js"></script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+
+  <script src="./assets/js/material-kit.js?v=2.0.6"></script>
+
+  <script>
+    $(document).ready(function () {
+      materialKit.initFormExtendedDatetimepickers();
 
 
-    <!-- SCRIPT -->
-    <!-- Core JS Files -->
-    <script src="./assets/js/core/jquery.min.js"></script>
-    <script src="./assets/js/core/popper.min.js"></script>
-    <script src="./assets/js/core/bootstrap-material-design.min.js"></script>
-    <script src="./assets/js/plugins/moment.min.js"></script>
+      materialKit.initSliders();
+    });
 
-    <!-- Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
-    <script src="./assets/js/plugins/bootstrap-datetimepicker.js"></script>
-
-    <!-- Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-    <script src="./assets/js/plugins/nouislider.min.js"></script>
-
-    <!-- Google Maps Plugin    -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-
-    <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
-    <script src="./assets/js/material-kit.js?v=2.0.6"></script>
-
-    <!-- Material Design Bootup -->
-    <script>
-      $(document).ready(function() {
-        //init DateTimePickers
-        materialKit.initFormExtendedDatetimepickers();
-
-        // Sliders Init
-        materialKit.initSliders();
-      });
-
-      function scrollToDownload() {
-        if ($(".section-download").length != 0) {
-          $("html, body").animate(
-            {
-              scrollTop: $(".section-download").offset().top
-            },
-            1000
-          );
-        }
+    function scrollToDownload() {
+      if ($(".section-download").length != 0) {
+        $("html, body").animate({
+          scrollTop: $(".section-download").offset().top
+        },
+          1000
+        );
       }
-    </script>
-    <!-- SCRIPT -->
-  </body>
+    }
+  </script>
+  <!-- SCRIPT -->
+</body>
+
 </html>
