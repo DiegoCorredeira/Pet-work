@@ -18503,7 +18503,19 @@ px
 .redes-contact{
   margin-left: 15px;
 }
-
+.card_img_promo{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+}
+.card_img_promo > img{
+  width:200px;
+  height:300px;
+  margin-left:15px;
+}
+.card_img_promo > img:hover{
+  transform:scale(1.8)
+}
 
   
 /*# sourceMappingURL=material-kit.css.map */
