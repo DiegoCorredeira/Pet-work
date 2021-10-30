@@ -18518,7 +18518,7 @@ px
   transform:scale(1.8)
 }
 
-@media screen and (min-width:500px){
+@media screen and (max-width:500px){
   .card_img_promo{
     display:flex;
     align-items:center;
@@ -18529,5 +18529,15 @@ px
   }
 }
 
+@media screen and (max-width:768px){
+  .card_img_promo{
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+  }
+  .card_img_promo > img{
+    margin-top:30px
+  }
+}
   
 /*# sourceMappingURL=material-kit.css.map */
