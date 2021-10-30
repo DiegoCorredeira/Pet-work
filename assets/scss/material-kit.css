@@ -18488,6 +18488,9 @@ footer .pull-center {
     flex-direction: column;
     flex-wrap: wrap;
 }
+.card_img_dog:hover{
+  transform:scale(1.8)
+}
 .redes_contact{
   display: flex;
   flex-direction: row;
