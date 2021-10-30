@@ -18507,6 +18507,7 @@ px
   display:flex;
   flex-direction:row;
   justify-content: space-evenly;
+  
 }
 .card_img_promo > img{
   width:200px;
@@ -18515,6 +18516,17 @@ px
 }
 .card_img_promo > img:hover{
   transform:scale(1.8)
+}
+
+@media screen and (min-width:500px){
+  .card_img_promo{
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+  }
+  .card_img_promo > img{
+    margin-top:30px
+  }
 }
 
   
